@@ -1,7 +1,7 @@
 ---
 layout: autopage_category
 title: Download Utility Software
-permalink: /software/utility
+permalink: /software/utilities
 pagination: 
   enabled: true
   collection: software
