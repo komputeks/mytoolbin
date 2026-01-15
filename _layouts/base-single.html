@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+{% include alt/head-post.html %}
+
+  <body>
+    <div class="site-wrapper overflow-hidden">
+
+    {{ content }}
+
+    </div>
+    <script>
+      var a2a_config = a2a_config || {};
+      a2a_config.onclick = 1;
+    </script>
+    <!-- Vendor Scripts -->
+    <script src="{{ "assets/plugins/jquery/jquery.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/plugins/jquery/jquery-migrate.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/plugins/bootstrap-4/js/bootstrap.bundle.min.js" | relative_url }}"></script>
+    <!-- Plugin's Scripts -->
+    <script src="{{ "assets/plugins/fancybox/jquery.fancybox.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/plugins/nice-select/jquery.nice-select.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/plugins/aos/aos.min.js" | relative_url }}"></script>
+    <script src="{{ "assets/plugins/slick/slick.min.js" | relative_url }}"></script>
+    <script async src="https://static.addtoany.com/menu/page.js"></script>
+    <!-- Activation Script -->
+    <script src="{{ "assets/js/custom.js" | relative_url }}"></script>
+  </body>
+
+
+</html>

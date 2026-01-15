@@ -1,0 +1,22 @@
+
+TEMPLATES 
+
+0. wp themes 0-11 
+1. wp plugins 
+2. xnf styles 
+3. xnf addons 
+4. html
+5. NextJS 
+6. graphic
+7. swipe files
+8. 
+
+
+wp themes
+wp plugins
+xnf styles
+xnf addons
+html
+NextJS
+graphic
+swipe files

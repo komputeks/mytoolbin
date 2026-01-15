@@ -1,0 +1,25 @@
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  {% include helpers/get-h2-this-post.html %}
+
+  <title>{% if post.title %}{{ post.title }} » {% else %} {{ h2_content_this_post }} » {% endif %} {{ site.title }}</title>
+  <link rel="shortcut icon" href="{{ "assets/image/png/favicon.html" | relative_url }}" type="image/x-icon">
+  <!-- Bootstrap , fonts & icons  -->
+  <link rel="stylesheet" href="{{ "assets/plugins/bootstrap-4/css/bootstrap.min.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "assets/fonts/icon-font/css/style.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "assets/fonts/typography-font/typo.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "assets/fonts/fontawesome-5/css/all.css" | relative_url }}">
+  <!-- Plugin'stylesheets  -->
+  <link rel="stylesheet"  href="{{ "assets/plugins/aos/aos.min.css" | relative_url }}">
+  <link rel="stylesheet"  href="{{ "assets/plugins/fancybox/jquery.fancybox.min.css" | relative_url }}">
+  <link rel="stylesheet"  href="{{ "assets/plugins/nice-select/nice-select.css" | relative_url }}">
+  <link rel="stylesheet"  href="{{ "assets/p1lugins/slick/slick.css" | relative_url }}">
+  <!-- Vendor stylesheets  -->
+  <link rel="stylesheet" href="{{ "assets/css/settings.css" | relative_url }}">
+  <link rel="stylesheet" href="{{ "assets/css/main.css" | relative_url }}">
+  <!-- Custom stylesheet -->
+  <link rel="stylesheet" href="{{ "assets/css/custom.css" | relative_url }}">
+</head>

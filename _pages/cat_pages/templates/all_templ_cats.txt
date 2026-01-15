@@ -1,0 +1,88 @@
+---
+layout: autopage_category
+title: Download WordPress Themes
+permalink: /templates/wp-themes
+pagination: 
+  enabled: true
+  collection: templates
+  category: wp-themes
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download WordPress Plugins
+permalink: /templates/wp-plugins
+pagination: 
+  enabled: true
+  collection: templates
+  category: wp-plugins
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download Xenforo Styles
+permalink: /templates/xnf-styles
+pagination: 
+  enabled: true
+  collection: templates
+  category: xenforo-styles
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download Xenforo Addons
+permalink: /templates/xnf-addons
+pagination: 
+  enabled: true
+  collection: templates
+  category: xenforo-addons
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download HTML templates
+permalink: /templates/html
+pagination: 
+  enabled: true
+  collection: templates
+  category: html-templates
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download Next JS templates
+permalink: /templates/nextjs
+pagination: 
+  enabled: true
+  collection: templates
+  category: nextjs-templates
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download Graphic templates
+permalink: /templates/graphics
+pagination: 
+  enabled: true
+  collection: templates
+  category: graphic-templates
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download swipe files
+permalink: /templates/swipe-files
+pagination: 
+  enabled: true
+  collection: templates
+  category: swipe-files
+  permalink: /:num/
+---
+

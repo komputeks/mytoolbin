@@ -1,0 +1,44 @@
+---
+layout: autopage_category
+title: Download music in artists collections
+permalink: /music/artist-collection
+pagination: 
+  enabled: true
+  collection: music
+  category: artist-collection
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: music in mixtapes collections
+permalink: /music/mixtape-collection
+pagination: 
+  enabled: true
+  collection: music
+  category: mixtape-collection
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: music in djs collections
+permalink: /music/dj-collection
+pagination: 
+  enabled: true
+  collection: music
+  category: dj-collection
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download music in general collections
+permalink: /music/general-music
+pagination: 
+  enabled: true
+  collection: music
+  category: general-music
+  permalink: /:num/
+---
+

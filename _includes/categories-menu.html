@@ -1,0 +1,21 @@
+<div class="blog-page blog-details">
+
+  <div class="blog-post-details">
+    <div class="container">
+    <!-- create categories array-->
+    {% assign categories_array = "" | split:"|" %}
+    <!--Add each unique 'my_collection' category to the array-->
+    {% for post in site.[page.pagination.collection] %}
+        {% for category in post.categories %}
+            {% assign categories_array = categories_array | push: category | uniq %}
+        {% endfor %}
+    {% endfor %}
+      <ul class="related-post-tags" style="overflow: auto; white-space: nowrap;">
+        {% for cat in categories_array %}
+        <li><a class="active" href="{{site.baseurl}}/{{page.pagination.collection}}/{{cat}}">{{ cat | replace: "-", " " | capitalize }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+
+</div>

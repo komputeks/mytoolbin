@@ -1,0 +1,76 @@
+{% case page.table_id %}
+
+{% when "my_bookmarks" or "startuptools" %}
+
+  <script type="text/javascript">
+      $('#{{ include.table_id }}').DataTable({
+          stateSave: true,
+          order: [[2, 'desc']],
+          layout: {
+              topStart: {
+                  paging: {
+                      buttons: 3
+                  }
+              },
+              topEnd: {
+                  search: {
+                      placeholder: 'Type search here'
+                  }
+              },
+              bottomStart: {
+                  paging: {
+                      buttons: 3
+                  }
+              },
+              bottomEnd: {
+                  pageLength: {
+                      menu: [ 5, 25, 100 ]
+                  }
+              }
+          },
+          columnDefs : [
+            {
+                render: function (data, type, row) {
+                    return '<a class="text-danger" href="' + row[2] + '" target="_blank">' + data + '&nearr;</a>' + '&nbsp;<img src="https://t2.gstatic.com/faviconV2?client=SOCIAL&type=FAVICON&fallback_opts=TYPE,SIZE,URL&url=' + row[2] + '&size=64" class="rounded mx-auto d-block">';
+                },
+                targets: 0
+            },
+            { visible: false, targets: [2] }
+          ]
+      });
+  </script>
+
+{% else %}
+
+  <script type="text/javascript">
+    $('#{{ include.table_id }}').DataTable({
+        order: [[0, 'desc']],
+        layout: {
+            topStart: {
+                paging: {
+                    buttons: 3
+                }
+            },
+            topEnd: {
+                search: {
+                    placeholder: 'Type to search'
+                }
+            },
+            bottomStart: {
+                paging: {
+                    buttons: 3
+                }
+            },
+            bottomEnd: {
+                pageLength: {
+                    menu: [ 5, 25, 100 ]
+                }
+            }
+        },
+        columnDefs: [
+            { visible: false, targets: [0] }
+        ]
+    });
+  </script>
+  
+{% endcase %}

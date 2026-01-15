@@ -1,0 +1,198 @@
+---
+layout: autopage_category
+title: Download development software
+permalink: /software/development
+pagination: 
+  enabled: true
+  collection: software
+  category: development
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download education software
+permalink: /software/education
+pagination: 
+  enabled: true
+  collection: software
+  category: education
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download music &amp; video software
+permalink: /software/music-video
+pagination: 
+  enabled: true
+  collection: software
+  category: music-video
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download internet software
+permalink: /software/internet
+pagination: 
+  enabled: true
+  collection: software
+  category: internet
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download graphics software
+permalink: /software/graphics
+pagination: 
+  enabled: true
+  collection: software
+  category: graphics
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download security software
+permalink: /software/security
+pagination: 
+  enabled: true
+  collection: software
+  category: security
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download utility software
+permalink: /software/utility
+pagination: 
+  enabled: true
+  collection: software
+  category: utility
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Download operating systems
+permalink: /software/os-system
+pagination: 
+  enabled: true
+  collection: software
+  category: os-system
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: arcade software games
+permalink: /software/arcade
+pagination: 
+  enabled: true
+  collection: software
+  category: arcade
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: action software games
+permalink: /software/action
+pagination: 
+  enabled: true
+  collection: software
+  category: action
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: adventure software games
+permalink: /software/adventure
+pagination: 
+  enabled: true
+  collection: software
+  category: adventure
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: board software games
+permalink: /software/board
+pagination: 
+  enabled: true
+  collection: software
+  category: board
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: card software games
+permalink: /software/card
+pagination: 
+  enabled: true
+  collection: software
+  category: card
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: download emulator software
+permalink: /software/emulator
+pagination: 
+  enabled: true
+  collection: software
+  category: emulator
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: puzzle software games
+permalink: /software/puzzle
+pagination: 
+  enabled: true
+  collection: software
+  category: puzzle
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: racing software games
+permalink: /software/racing
+pagination: 
+  enabled: true
+  collection: software
+  category: racing
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: role playing software games
+permalink: /software/role-playing 
+pagination: 
+  enabled: true
+  collection: software
+  category: role-playing
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: strategy software games
+permalink: /software/strategy
+pagination: 
+  enabled: true
+  collection: software
+  category: strategy
+  permalink: /:num/
+---
+

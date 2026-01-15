@@ -1,0 +1,21 @@
+{% include helpers/get-h2-each-post.html %}
+<div class="col-lg-4 col-sm-6 mt--30">
+  <div class="case-study-card">
+    <div class="card-img">
+      <a href="{{ post.url | relative_url }}">
+        <img src="{% if post.image %} {{post.image}} {% else %}{%- include imageset.html content=post.content -%} {% endif %}" alt="{{ h2_content_each_post }}">
+      </a>
+      <div class="brand-img">
+        <a href="{{site.baseurl}}/{{post.collection}}/{{post.categories | first}}"><p style="background-color: #FE4E00; color: #1A2830; padding: 5px; border-radius: 5px; text-transform: capitalize;"><strong>{{ post.categories | first | replace: "-"," " }}</strong></p></a>
+      </div>
+    </div>
+    <div class="card-content">
+      <a href="{{ post.url | relative_url }}">
+        <h3 class="title">
+          {{ h2_content_each_post }}
+        </h3>
+        <p> {% if post.description %} {{ post.description }} {% else %} {{ post.content | truncate: 75 }} {% endif %}</p>
+      </a>
+    </div>
+  </div>
+</div> 

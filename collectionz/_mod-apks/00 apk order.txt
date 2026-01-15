@@ -1,0 +1,53 @@
+0. personalization 1-10
+1. tools utilities
+2. file management
+3. communication
+4. photography
+5. development
+6. books-reference
+7. music-video
+8. internet 
+9. action (90-100)
+10. adventure 
+11. arcade 
+12. board 
+13. card 
+14. casual 
+15. casino 
+16. EMPTY EMPTY EMPTY EMPTY 
+17. fighting
+18. golf 
+19. racing 
+20. role-playing 
+21. shooting 
+22. simulation
+23. sports 
+24. strategy 
+25. survival 
+
+personalization
+tools utilities
+file management
+communication
+photography
+development
+books-reference
+music-video
+internet
+action (90-100)
+adventure
+arcade
+board
+card
+casual
+casino
+EMPTY EMPTY EMPTY EMPTY
+fighting
+golf
+racing
+role-playing
+shooting
+simulation
+sports
+strategy
+survival

@@ -1,0 +1,240 @@
+---
+layout: base-single
+---
+
+{% include helpers/get-h2-this-post.html %}
+
+<div class="career-details-page">
+  <div class="site-wrapper" id="top">
+  
+    <!-- Header Area -->
+    <header class="site-header position-relative bg--conflower-blue">
+      <div class="container-fluid pr-lg--30 pl-lg--30">
+        <nav class="navbar site-navbar offcanvas-active navbar-expand-lg navbar-light">
+          {% include header.html %}
+          <button class="navbar-toggler btn-close-off-canvas" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="icon icon-simple-remove icon-close"></i>
+            <i class="icon icon-menu-34 icon-burger"></i>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Main Content Section -->
+    <div class="job-details-main">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-11">
+            <div class="job-details-content pb--0">
+              <div class="contant-block-1 text-center">
+                <h1 class="main-title mb-0">{% if post.title %}{{ post.title }} » {% else %} {{ h2_content_this_post }} {% endif %}</h1>
+              </div>
+              <div class="job-top-header">
+                <span class="location">
+              <i class="icon icon-pin-3 mr--5"></i>
+              {{ page.typeOf | replace: "-", " " | capitalize }}, {%- if page.typeOf == "products" -%}
+                Countrywide {%- else -%} Worldwide
+              {%- endif -%}</span>
+                <span class="badge purple">{{ page.categories | first | replace: "-", " " | capitalize }}</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8">
+            <div class="job-details-content">
+
+              {{ content | markdownify }}
+
+              <div class="contant-block-4">
+                <div class="apply-btn pt--20 pt-md--50"><a class="btn--primary hvr-bounce-to-left" href="#">Apply for this job</a></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div><br /><br />
+    <!-- End Main Content Section -->
+
+    <div class="landing-8 position-relative dark-theme">
+      <!-- Testimonial Section -->
+      <div class="testimonial-section">
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-4 col-md-6 col-sm-9 mb--40">
+              <div class="single-testimonial">
+                <div class="brand-logo">
+                  <img src="{{ "assets/image/png/testimonial-brand-logo-1.png" | relative_url }}" alt="">
+                </div>
+                <p>
+                  “You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, made the change.”
+                </p>
+                <div class="user-block">
+                  <div class="user-image">
+                    <img src="{{ "assets/image/png/l8-testimonial-user-image-1.png" | relative_url }}"alt="">
+                  </div>
+                  <div class="user-text">
+                    <h3 class="user-title">Troy Patrick</h3>
+                    <span class="user-rank">CEO at CoWorks</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-9 mb--40">
+              <div class="single-testimonial">
+                <div class="brand-logo">
+                  <img src="{{ "assets/image/png/testimonial-brand-logo-2.png" | relative_url }}" alt="">
+                </div>
+                <p>
+                  “Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.”
+                </p>
+                <div class="user-block">
+                  <div class="user-image">
+                    <img src="{{ "assets/image/png/l8-testimonial-user-image-2.png" | relative_url }}" alt="">
+                  </div>
+                  <div class="user-text">
+                    <h3 class="user-title">Troy Patrick</h3>
+                    <span class="user-rank">CEO at CoWorks</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-9 mb--40">
+              <div class="single-testimonial">
+                <div class="brand-logo">
+                  <img src="{{ "assets/image/png/testimonial-brand-3.png" | relative_url }}"alt="">
+                </div>
+                <p>
+                  “You made it so simple. My new site is so much faster and easier to work with than my old site. I just choose the page, made the change.”
+                </p>
+                <div class="user-block">
+                  <div class="user-image">
+                    <img src="{{ "assets/image/png/l8-testimonial-user-image-3.png" | relative_url }}" alt="">
+                  </div>
+                  <div class="user-text">
+                    <h3 class="user-title">Troy Patrick</h3>
+                    <span class="user-rank">CEO at CoWorks</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Contact Section -->
+      <div class="contact-section">
+        <div class="contact-shape">
+          <img src="{{ "assets/image/svg/contact-shape.svg" | relative_url }}" alt="">
+        </div>
+        <div class="container">
+          <div class="row justify-content-center">
+            <div class="col-lg-9 col-xl-8" data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" data-aos-delay="100">
+              <form action="#">
+                <div class="contact-form">
+                  <div class="form-title-block">
+                    <h3 class="f-title">
+                      Let’s talk
+                    </h3>
+                    <p>
+                      Drop us a line & we will get back to you soon!
+                    </p>
+                  </div>
+                  <div class="form-input-blocks">
+                    <input type="text" name="name" placeholder="Your name" class="form-control" id="name">
+                    <input type="email" name="email" placeholder="Email address" class="form-control" id="email">
+                    <textarea name="message" id="message" placeholder="Tell us about your project" class="form-control"></textarea>
+                    <div class="agree-block">
+                      <input type="checkbox" id="agree-check" />
+                      <label for="agree-check">
+                      </label>
+                      <p>I agree to the <a href="#">Terms & Conditions</a></p>
+                    </div>
+                    <button class="btn--primary w-100">Send</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer Section -->
+      <div class="footer-section">
+        <div class="container">
+          <div class="footer-top">
+            <div class="row justify-content-center">
+              <div class="col-lg-3 col-xl-3 col-md-4 mb--40 mb-md--0">
+                <div class="footer-newsletter">
+                  <h3 class="newsletter-title">Got a project?</h3>
+                  <a href="{{ contact.html | relative_url }}" class="btn btn-outlined--white">Get In Touch</a>
+                </div>
+                <div class="footer-contact-block">
+                  <span class="label">Or send an email to:</span>
+                  <h3 class="contact-mail">
+                    simonpmw@pm.me
+                  </h3>
+                </div>
+              </div>
+              <div class="col-xl-7 col-lg-8 col-md-8 offset-xl-2 offset-lg-1">
+                <div class="row">
+                  <div class="col-6 col-sm-4">
+                    <div class="single-footer mb--50 mb-lg--30">
+                      <h5 class="footer-title">Services</h5>
+                      <ul class="footer-list">
+                        <li><a href="#">Quick Deals</a></li>
+                        <li><a href="#">Design & Dev</a></li>
+                        <li><a href="#">Online Cyber</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4">
+                    <div class="single-footer mb--50 mb-lg--30">
+                      <h5 class="footer-title">Shop</h5>
+                      <ul class="footer-list">
+                        <li><a href="#">Laptops</a></li>
+                        <li><a href="#">Desktops</a></li>
+                        <li><a href="#">Printers</a></li>
+                        <li><a href="#">Woofers</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                  <div class="col-6 col-sm-4">
+                    <div class="single-footer mb--50 mb-lg--30">
+                      <h5 class="footer-title">Tools</h5>
+                      <ul class="footer-list">
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Android Apps</a></li>
+                        <li><a href="#">PC Software</a></li>
+                        <li><a href="#">Templates</a></li>
+                        <li><a href="#">Courses</a></li>
+                        <li><a href="#">Music & SFX</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-area">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-sm-6  text-sm-left text-center mb-2 mb-sm-0">
+                <a href="/" class="footer-brand"><img src="{{ "assets/image/png/logo-white.png" | relative_url }}" alt=""></a>
+              </div>
+              <div class="col-sm-6 text-sm-right text-center">
+                <ul class="social-icons">
+                  <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fab fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fab fa-google-plus-square"></i></a></li>
+                  <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>

@@ -1,0 +1,32 @@
+---
+layout: autopage_category
+title: Download courses
+permalink: /courses/general
+pagination: 
+  enabled: true
+  collection: courses
+  category: general
+  permalink: /:num/
+---
+
+
+ai-tools
+bookmarklets
+keyboard-shortcuts
+how-to
+best-of
+code-snippets
+general-tech
+other-articles
+awesome-tech
+
+
+artist-collection
+mixtape-collection
+dj-collection
+general-music
+
+design-dev
+online cyber
+cheap accounts
+dj radio drops

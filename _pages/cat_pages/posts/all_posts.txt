@@ -1,0 +1,99 @@
+---
+layout: autopage_category
+title: ai tools
+permalink: /posts/ai-tools
+pagination: 
+  enabled: true
+  collection: posts
+  category: ai-tools
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: bookmarklets
+permalink: /posts/bookmarklets
+pagination: 
+  enabled: true
+  collection: posts
+  category: bookmarklets
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: keyboard shortcuts
+permalink: /posts/keyboard-shortcuts
+pagination: 
+  enabled: true
+  collection: posts
+  category: keyboard-shortcuts
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: how-to
+permalink: /posts/how-to
+pagination: 
+  enabled: true
+  collection: posts
+  category: how-to
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: best of
+permalink: /posts/best-of
+pagination: 
+  enabled: true
+  collection: posts
+  category: best-of
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: code snippets
+permalink: /posts/code-snippets
+pagination: 
+  enabled: true
+  collection: posts
+  category: code-snippets
+  permalink: /:num/
+---
+
+
+---
+layout: autopage_category
+title: general tech
+permalink: /posts/general-tech
+pagination: 
+  enabled: true
+  collection: posts
+  category: general-tech
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: other articles
+permalink: /posts/other-articles
+pagination: 
+  enabled: true
+  collection: posts
+  category: other-articles
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: awesome tech
+permalink: /posts/awesome-tech
+pagination: 
+  enabled: true
+  collection: posts
+  category: awesome-tech
+  permalink: /:num/
+---

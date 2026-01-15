@@ -1,0 +1,275 @@
+---
+layout: autopage_category
+title: Personalization Mod Apks
+permalink: /mod-apks/personalization
+pagination: 
+  enabled: true
+  collection: modapks
+  category: personalization
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Tools & Utility Mod Apks
+permalink: /mod-apks/tools-utilities
+pagination: 
+  enabled: true
+  collection: modapks
+  category: tools-utilities
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: File Management Mod Apks
+permalink: /mod-apks/file-management
+pagination: 
+  enabled: true
+  collection: modapks
+  category: file-management
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Communication Mod Apks
+permalink: /mod-apks/communication
+pagination: 
+  enabled: true
+  collection: modapks
+  category: communication
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Photography Mod Apks
+permalink: /mod-apks/photography
+pagination: 
+  enabled: true
+  collection: modapks
+  category: photography
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Development Mod Apks
+permalink: /mod-apks/development
+pagination: 
+  enabled: true
+  collection: modapks
+  category: development
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Books & Reference Mod Apks
+permalink: /mod-apks/books-reference
+pagination: 
+  enabled: true
+  collection: modapks
+  category: books-reference
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Music Video Mod Apks
+permalink: /mod-apks/music-video
+pagination: 
+  enabled: true
+  collection: modapks
+  category: music-video
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Internet Mod Apks
+permalink: /mod-apks/internet
+pagination: 
+  enabled: true
+  collection: modapks
+  category: internet
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Action Mod Games
+permalink: /mod-apks/action
+pagination: 
+  enabled: true
+  collection: modapks
+  category: action
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Adventure Mod Games
+permalink: /mod-apks/adventure
+pagination: 
+  enabled: true
+  collection: modapks
+  category: adventure
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Arcade Mod Games
+permalink: /mod-apks/arcade
+pagination: 
+  enabled: true
+  collection: modapks
+  category: arcade
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Board Mod Games
+permalink: /mod-apks/board
+pagination: 
+  enabled: true
+  collection: modapks
+  category: board
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Card Mod Games
+permalink: /mod-apks/card
+pagination: 
+  enabled: true
+  collection: modapks
+  category: card
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Casual Mod Games
+permalink: /mod-apks/casual
+pagination: 
+  enabled: true
+  collection: modapks
+  category: casual
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Casino Mod Games
+permalink: /mod-apks/casino
+pagination: 
+  enabled: true
+  collection: modapks
+  category: casino
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Fighting Mod Games
+permalink: /mod-apks/fighting
+pagination: 
+  enabled: true
+  collection: modapks
+  category: fighting
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Golf Mod Games
+permalink: /mod-apks/golf
+pagination: 
+  enabled: true
+  collection: modapks
+  category: golf
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Racing Mod Games
+permalink: /mod-apks/racing
+pagination: 
+  enabled: true
+  collection: modapks
+  category: racing
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Role Playing Mod Games
+permalink: /mod-apks/role-playing
+pagination: 
+  enabled: true
+  collection: modapks
+  category: role-playing
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Shooting Mod Games
+permalink: /mod-apks/shooting
+pagination: 
+  enabled: true
+  collection: modapks
+  category: shooting
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Simulation Mod Games
+permalink: /mod-apks/simulation
+pagination: 
+  enabled: true
+  collection: modapks
+  category: simulation
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Sports Mod Games
+permalink: /mod-apks/sports
+pagination: 
+  enabled: true
+  collection: modapks
+  category: sports
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Strategy Mod Games
+permalink: /mod-apks/strategy
+pagination: 
+  enabled: true
+  collection: modapks
+  category: strategy
+  permalink: /:num/
+---
+
+---
+layout: autopage_category
+title: Survival Mod Games
+permalink: /mod-apks/survival
+pagination: 
+  enabled: true
+  collection: modapks
+  category: survival
+  permalink: /:num/
+---
+

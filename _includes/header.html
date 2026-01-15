@@ -1,0 +1,47 @@
+<!-- Brand Logo-->
+<div class="brand-logo mr--30"><a href="/"><img src="{{ "assets/image/png/l1-logo.png" | relative_url }}" alt=""></a></div>
+<div class="collapse navbar-collapse" id="mobile-menu">
+
+  {% if site.data.navigation.toc2[0] %}
+  <div class="navbar-nav mr--10 ml-lg-auto">
+    <ul class="navbar-nav main-menu">
+
+      {% for item in site.data.navigation.toc2 %}
+      <li class="nav-item {% if item.subfolderitems[0] %} dropdown {% endif %}">
+        <a role="button" class="nav-link {% if item.subfolderitems[0] %} dropdown-toggle" aria-expanded="false" href="#features" id="navbarDropdown" data-toggle="dropdown" aria-haspopup="true" {% else %} aria-haspopup="false" href="{{ item.url | absolute_url }}" {% endif %} >{{ item.title }}</a>
+
+        {% if item.subfolderitems[0] %}
+        <ul class="menu-dropdown dropdown-menu" aria-labelledby="navbarDropdown">
+
+          {% for entry in item.subfolderitems %}
+          <li class="drop-menu-item {% if entry.subsubfolderitems[0] %} dropdown {% endif %}">
+
+            <a {% if entry.subsubfolderitems[0] %} class="dropdown-toggle" id="navbarDropdown2" href="#"role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" {% else %} href="{{ entry.url | absolute_url }}" {% endif %}>
+              {{ entry.page }}
+            </a>
+
+            {% if entry.subsubfolderitems[0] %}
+            <ul class="menu-dropdown dropdown-menu dropdown-right" aria-labelledby="navbarDropdown21">
+              {% for subentry in entry.subsubfolderitems %}
+              <li class="drop-menu-item">
+                <a href="{{subentry.url | absolute_url}}">
+                  {{subentry.page}}
+                </a>
+              </li>
+              {% endfor %}
+            </ul>
+            {% endif %}
+
+          </li>
+          {% endfor %}
+
+        </ul>
+        {% endif %}
+      </li>
+      {% endfor %}
+
+    </ul>
+  </div>
+  {% endif %}
+<div class="header-btns justify-content-end"><a class="btn btn--primary btn-header hvr-bounce-to-left" href="{{site.baseurl}}/contact.html">Let's Talk</a></div>
+</div>

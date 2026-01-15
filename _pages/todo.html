@@ -1,0 +1,38 @@
+---
+title: Changelog, Timeline & To Do
+description: Description of Changelog, Timeline & To Do
+table_id: todo
+layout: single/single-table
+image: https://wpsstrapicms.cache.wpscdn.com/56_2832fb1ed8.png
+permalink: /todo
+---
+
+{% externalJSON tabledata from url https://opensheet.elk.sh/1aW24HYgD_c13AY8cmAb27scePA8rXggN8XeMvps_pII/1 %}
+
+<div class="table table-responsive-sm">
+  <table class="w-100 table-warning table-bordered table-sm" id="{{ page.table_id }}">
+    {% for row in tabledata %}
+      {% if forloop.first %}
+      <thead>
+        <tr>
+          {% for pair in row %}
+            <th>{{ pair[0] }}</th>
+          {% endfor %}
+        </tr>
+      </thead>
+      {% endif %}
+      {% tablerow pair in row %}
+        {{ pair[1] }}
+      {% endtablerow %}
+    {% endfor %}
+  </table>
+</div>
+<br />
+
+<h2>Changelog, Timeline & ToDo</h2>
+
+<div class="details-big-img  pb--50 pb-lg--75">
+  <a href="https://docs.google.com/spreadsheets/d/1aW24HYgD_c13AY8cmAb27scePA8rXggN8XeMvps_pII" target="_blank">
+    <img src="{{page.image}}" alt="h2_content_this_post">
+  </a>
+</div>

@@ -1,0 +1,17 @@
+<section>
+  <div class="container pt--45 pb--45">
+    <h2 class="display-4">Discover other {{ page.pagination.collection | replace: "-", " " | capitalize }}</h2>
+    <p class="lead">Explore {{ page.pagination.collection }} on this site from the categories menu below.</p>
+      {% assign categories_array = "" | split:"|" %}
+      {% for post in site.[page.pagination.collection] %}
+          {% for category in post.categories %}
+              {% assign categories_array = categories_array | push: category | uniq %}
+          {% endfor %}
+      {% endfor %}
+    <nav class="nav nav-pills mt-4" style="display: flex; overflow-x: auto;">
+      {% for cat in categories_array %}
+      <a class="nav-link" style="color: blue; flex: 0 0 auto; margin-right: 10px;" href="{{site.baseurl}}/{{page.pagination.collection}}/{{cat}}">{{ cat | replace: "-", " " | capitalize }}</a>
+      {% endfor %}
+    </nav>
+  </div>
+</section>

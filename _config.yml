@@ -1,0 +1,143 @@
+title: Komputeks
+email: simonpmw@pm.me
+description: >- # this means to ignore newlines until "baseurl:"
+  Awesome description for the site here. Edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl: '' # the subpath of site, e.g. /blog
+url: "" # the base hostname & protocol site, e.g. http://example.com
+twitter_url: https://twitter.com/djxpat254
+github_username: Komputeks
+
+author:
+  name: Simon Peter
+  url: https://spmw.github.io
+
+# Build settings & plugins 
+plugins:
+  - jekyll-feed
+  - jekyll-get-json
+  - jekyll-paginate-v2
+
+# Site wide PERMALINK style
+permalink: /:slugified_categories/:title:output_ext
+
+include:
+  - _pages
+
+# pagination Settings
+pagination:
+  enabled: true
+  per_page: 6
+  permalink: ':num'
+  title: ':title » Page :num of :max'
+  limit: 0
+  sort_reverse: true
+ # extension: html
+ # indexpage: 'default'
+  trail: 
+    before: 1
+    after: 1
+
+# auto_pagination pages
+autopages:
+  enabled: true
+  collections:
+    enabled: true
+    slugify:
+      mode: 'ascii'
+      cased: false
+  categories:
+    enabled: true
+    slugify:
+      mode: 'ascii'
+      cased: false
+  tags:
+    enabled: false
+
+# collections settings 
+collections_dir: collectionz
+collections:
+  posts:
+    output: true
+    permalink: /:collection/:categories/:title:output_ext
+  courses:
+    output: true
+    permalink: /:collection/:categories/:title:output_ext
+  mod-apks:
+    output: true
+    permalink: /:collection/:categories/:title:output_ext
+  templates:
+    output: true
+    permalink: /:collection/:categories/:title:output_ext
+  software:
+    output: true
+    permalink: /:collection/:categories/:title:output_ext
+  music:
+    output: true
+    permalink: /:collection/:categories/:title:output_ext
+
+# data
+jekyll_get_json:
+  - data: articles
+    json: 'https://opensheet.elk.sh/10FTL61U0TCNJou_OIb8X6ZD3oHr_Z6TK-9IWIi2QekQ/1'
+  - data: courses # courses
+    json: 'https://opensheet.elk.sh/1rpieJQWf5PJ3hdWgwTMTve9cPq9sgH-0QzHYxhUN55U/1'
+  - data: apps # modapks
+    json: 'https://opensheet.elk.sh/1PdgYXXaoOgJqJdd8azmJr2BJ_9fYgvNq4wn1IkRSa24/1'
+  - data: templates # webtemplates
+    json: 'https://opensheet.elk.sh/1TbnqPZ-D0i2UOticEUrjFVSfIhRrhMepxdzliQ4Nllc/1'
+  - data: software # softwares
+    json: 'https://opensheet.elk.sh/1lw_k0NFRvD8KucgYc6dHm7ak-wSRHloh9t09pWD8SKA/1'
+  - data: music # music
+    json: 'https://opensheet.elk.sh/14uBC8LqsagUUUMuDrcS_Xu8OeFOESfFrW70JRpRzoME/1'
+  - data: icons # icons
+    json: 'https://opensheet.elk.sh/14uBC8LqsagUUUMuDrcS_Xu8OeFOESfFrW70JRpRzoME/1'
+
+# Scope defaults 
+defaults:
+  - scope:
+      path: "_pages"
+    values:
+      permalink: /:basename:output_ext
+  - scope:
+      type: "posts"
+    values:
+      layout: "single/single-post"
+  - scope:
+      type: "courses"
+    values:
+      layout: "single/single-post"
+  - scope:
+      type: "mod-apks"
+    values:
+      layout: "single/single-post"
+  - scope:
+      type: "templates"
+    values:
+      layout: "single/single-post"
+  - scope:
+      type: "software"
+    values:
+      layout: "single/single-post"
+  - scope:
+      type: "music"
+    values:
+      layout: "single/single-post"
+
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
